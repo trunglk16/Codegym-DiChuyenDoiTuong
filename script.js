@@ -49,7 +49,7 @@ function right() {
     }
             document.getElementById('game').innerHTML = hero.getHeroElement();
 }
-let p = 0;
+/////////////////////////////////BASIC/////////////////////////////////////////
 function left() {
     switch (hero.left) {
         case window.innerWidth-hero.size:
@@ -96,7 +96,7 @@ function movetop() {
 
 
 
-/////////////////////////////Cach cuoi cung =))/////////////////////////////////
+///////////////////////////CRAZY/////////////////////////////////
 // run = [a,b,c,d];
 // console.log(run);
 
